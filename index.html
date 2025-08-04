@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Capitaine Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="public/logo.png" alt="Logo Capitaine Quiz" class="logo">
+
+        <h1>Capitaine Quiz</h1>
+        <p>Réponds aux 10 questions du jour, générées en direct par l'IA !</p>
+
+        <button id="start-button">Jouer</button>
+
+        <div id="quiz-area" style="display: none;">
+            <p id="question"></p>
+            <div id="answers"></div>
+            <p id="timer">Temps : 0s</p>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
